@@ -43,13 +43,15 @@ The docs give you a quick intro into edge-ml.
 
 ## Before you start
 ### How is edge-ml organized?
-In general, edge-ml is organized in projects. After creating a project, you can upload datasets to it, define class labelings, and create as well as deploy edge machine learning models.
+In general, edge-ml is organized on a per project. After creating a project, you can link a device to your project, upload datasets, define class labelings, and create as well as deploy edge machine learning models. If you are working together with others you can also add them to your project.
 
 ### Registration
 Before you can use edge-ml, you have to register. Please do so [here](https://app.edge-ml.org)
 
 ## Creating your first edge-ml model
 ### Create project
+After registering (see [Registration](#Registration)) login to your edge-ml account. Then create your first project by clicking on the "+" button next to the edge-ml logo in the top navigation bar. Here you can set a project name. Then click "Save" to create your first project. You have now create your first project with edge-ml.
+
 ### Connect device
 Out of the box, edge-ml currently supports connecting to the following Arduinos:
 - [Nicla Sense ME]() (directly from your browser over BLE)
@@ -93,7 +95,7 @@ edge-ml is open-source and we love to see others contribute. Our dedicated team 
 Did you experience a bug? 🐛 Do you have a feature request? Please [join the discussion](https://github.com/edge-ml/edge-ml/discussions) and make yourself heard.
 
 ### Join the development
-
+If you are intersted in contributing a feature to our code base please have a look at our [Kanban board](https://github.com/orgs/edge-ml/projects/1) and make yourself noticed by joining the open planned features and issues. Also, feel free to create a pull request if you have found a bug and fixed it!
 
 ## Advanced
 ### Projects

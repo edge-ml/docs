@@ -1,4 +1,4 @@
-# edge-ml: end-to-end embedded machine learning
+# edge-ml: embedded-first machine learning
 
 Welcome to the _edge-ml_ wiki. Here you can find all the information you need to get started with your first project using _edge-ml_ today.
 

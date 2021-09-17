@@ -15,7 +15,7 @@ If you are using _edge-ml_ and would like to cite it in your research please use
 ```
 
 ## Overview
-This wiki page gives you a quick intro into edge-ml.
+The docs give you a quick intro into edge-ml.
 - **[Before you start](#Before-you-start)**
     - [How is edge-ml organized?](#How-is-edge-ml-organized)
     - [Register](#Register)

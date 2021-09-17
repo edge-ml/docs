@@ -43,7 +43,10 @@ The docs give you a quick intro into edge-ml.
 
 ## Before you start
 ### How is edge-ml organized?
+In general, edge-ml is organized in projects. After creating a project, you can upload datasets to it, define class labelings, and create as well as deploy edge machine learning models.
+
 ### Registration
+Before you can use edge-ml, you have to register. Please do so [here](https://app.edge-ml.org)
 
 ## Creating your first edge-ml model
 ### Create project

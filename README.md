@@ -95,7 +95,7 @@ edge-ml is open-source and we love to see others contribute. Our dedicated team 
 Did you experience a bug? 🐛 Do you have a feature request? Please [join the discussion](https://github.com/edge-ml/edge-ml/discussions) and make yourself heard.
 
 ### Join the development
-If you are intersted in contributing a feature to our code base please have a look at our [Kanban board](https://github.com/orgs/edge-ml/projects/1) and make yourself noticed by joining the open planned features and issues. Also, feel free to create a pull request if you have found a bug and fixed it!
+If you are interested in contributing a feature to our code base please have a look at our [Kanban board](https://github.com/orgs/edge-ml/projects/1) and make yourself noticed by joining planned features and issues. Also, feel free to create a pull request if you have found a bug and fixed it!
 
 ## Advanced
 ### Projects

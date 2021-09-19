@@ -50,7 +50,7 @@ Before you can use edge-ml, you have to register. Please do so [here](https://ap
 
 ## Creating your first edge-ml model
 ### Create project
-After registering (see [Registration](#Registration)) login to your edge-ml account. Then create your first project by clicking on the "+" button next to the edge-ml logo in the top navigation bar. Here you can set a project name. Then click "Save" to create your first project. You have now create your first project with edge-ml.
+After registering (see [Registration](#Registration)) login to your edge-ml account. Then create your first project by clicking on the "+ Add Project" button in the left main navigation bar. Here you can set a project name. Then click "Save" to create your first project. You have now create your first project with edge-ml.
 
 ### Connect device
 Out of the box, edge-ml currently supports connecting to the following Arduinos:
@@ -63,7 +63,7 @@ In this tutorial, we will focus on the Nicla Sense ME which already has sensors 
 Please first install the BLE library from Bosch on your Nicla Sense ME board by following the steps listed [here]().
 
 Then, navigate to the project that you have created earlier on edge-ml. 
-Within in your project navigate to the tab "Devices" which will give you the possibility to connect to a new device using Bluetooth Low Energy by clicking the "Scan" button. Once your device is found, select it from the list of devices and click "Connect".
+Within in your project navigate to the tab "Datasets" which will give you the possibility to connect to a new device using Bluetooth Low Energy by clicking the "+ Upload from BLE" button. Once your device is found, select it from the list of devices and click "Connect".
 The device then shows up in your list of connected devices with the possibility to enable different sensors and set their respective sampling rates. 
 You can now activate the sensors that you would like to record by selecting them from the list shown on your screen.
 In this example, we will activate the accelerometer and gyroscope sampling at 50 Hz.
@@ -82,7 +82,7 @@ In this example, we collect two datasets. The first dataset containes multiple r
 Now that you have collected your training data, you have to add labels to it so that they can be processed in the model training generation step later. Please navigate to "Labelings" in the top navigation bar in your project. Then click "+ Add Labeling Set" to add a new set of labels. You can now enter the name of the labeling set (e.g., in our case "Gesture Labels"). Then click on "+ Add Label" to add your desired labels. In our example scenario we are adding the labels based on the data we recorded earlier by adding 'Shake', 'Bump', and 'No Gesture'. The colors for the labels are generate automatically for you and you can easily change them by entering a different color HEX code.
 
 ### Train edge-ml model
-_Release pending._
+_Closed Beta._
 
 ### Deploy and use
 _Coming soon._

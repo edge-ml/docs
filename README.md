@@ -54,13 +54,18 @@ After registering (see [Registration](#Registration)) login to your edge-ml acco
 
 ### Connect device
 Out of the box, edge-ml currently supports connecting to the following Arduinos:
-- [Nicla Sense ME]() (directly from your browser over BLE)
-- [ESP32]() (over WiFi using the dedicated edge-ml Arduino library)
+- [Nicla Sense ME](https://www.bosch-sensortec.com/software-tools/tools/arduino-nicla-sense-me/) (directly from your browser over BLE)
+- [Arduino Nano 33 BLE](https://store.arduino.cc/products/arduino-nano-33-ble) (directly from your browser over BLE)
+- [ESP32](https://www.espressif.com/en/products/socs/esp32) (over WiFi using the dedicated edge-ml Arduino library)
 
-edge-ml also supports [Android]() and [node.js]().
+edge-ml also supports [Android](https://github.com/edge-ml/java) and [node.js](https://github.com/edge-ml/node).
 
-In this tutorial, we will focus on the Nicla Sense ME which already has sensors pre-installed and requires minimal setup.
-Please first install the BLE library from Bosch on your Nicla Sense ME board by following the steps listed [here]().
+In this tutorial, we will focus on the **Nicla Sense ME** and **Arduino Nano 33 BLE** which already have sensors pre-installed and require minimal setup.
+
+**Before you start please first install the edge-ml firmware on your Nicla Sense ME or Arduino Nano 33 BLE following the tutorials here:**
+- [How to install the edge-ml Firmware on your Nicla Sense ME](https://github.com/edge-ml/nicla-sense-me-fw)
+- [How to install the edge-ml Firmware on your Arduino Nano 33 BLE](https://github.com/edge-ml/nano-33-ble-fw)
+
 
 Then, navigate to the project that you have created earlier on edge-ml. 
 Within in your project navigate to the tab "Datasets" which will give you the possibility to connect to a new device using Bluetooth Low Energy by clicking the "+ Upload from BLE" button. Once your device is found, select it from the list of devices and click "Connect".

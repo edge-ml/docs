@@ -62,8 +62,8 @@ edge-ml also supports [Android](https://github.com/edge-ml/java) and [node.js](h
 In this tutorial, we will focus on the **Nicla Sense ME** and **Arduino Nano 33 BLE** which already have sensors pre-installed and require minimal setup.
 
 **Before you start please first install the edge-ml firmware on your Nicla Sense ME or Arduino Nano 33 BLE following the tutorials here:**
-- [How to install the edge-ml Firmware on your Nicla Sense ME](https://github.com/edge-ml/nicla-sense-me-fw)
-- [How to install the edge-ml Firmware on your Arduino Nano 33 BLE](https://github.com/edge-ml/nano-33-ble-fw)
+- [How to install the edge-ml Firmware on your Nicla Sense ME?](https://github.com/edge-ml/nicla-sense-me-fw)
+- [How to install the edge-ml Firmware on your Arduino Nano 33 BLE?](https://github.com/edge-ml/nano-33-ble-fw)
 
 
 Then, navigate to the project that you have created earlier on edge-ml. 

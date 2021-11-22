@@ -25,26 +25,26 @@ The docs give you a quick intro into edge-ml.
   - [Add Labels](#Add-Labels)
   - [Train edge-ml model](#Train-edge-ml-model)
   - [Deploy and use](#Deploy-and-use)
-- **[How to contribute](#How-to-contribute)**
-  - [Submit an issue](#Submit-an-issue-or-feature)
-  - [Join the development](#Join-the-development)
-    - [Prerequisites](#Prerequisites)
-    - [Starting edge-ml](#Starting-edge-ml)
-    - [Troubleshooting](#Troubleshooting)
 - **[Advanced](#Advanced)**
   - [Projects](#Projects)
     - [Settings]()
     - [Adding team members]()
     - [Enable Device API]()
-  - [Datasets]()
+  - [Datasets](#Datasets)
     - [Labelings and Labels](#Labelings-and-Labels)
     - [CSV Header Format](#CSV-Header-Format)
     - [Example Dataset](#Example-Dataset)
     - [CSV Upload / Download]()
     - [Arduino, Android, node.js Libraries]()
-  - Account
+  - [Account](#Account)
     - [Settings]()
     - [2-Factor-Authentication]()
+  - **[How to contribute](#How-to-contribute)**
+    - [Submit an issue](#Submit-an-issue-or-feature)
+    - [Join the development](#Join-the-development)
+      - [Prerequisites](#Prerequisites)
+      - [Starting edge-ml](#Starting-edge-ml)
+      - [Troubleshooting](#Troubleshooting)
 
 ## Before you start
 ### How is edge-ml organized?
@@ -96,58 +96,6 @@ Training a model inside edge-ml is currently in closed beta. However, if you wou
 
 ### Deploy and use
 _Coming soon._
-
-
-## How to contribute
-edge-ml is open-source and we love to see others contribute. Our dedicated team of researchers and developers constantly works on making edge-ml the best end-to-end embedded machine learning framework for everyone.
-
-### Submit an issue or feature
-Did you experience a bug? 🐛 Do you have a feature request? Please [join the discussion](https://github.com/edge-ml/edge-ml/discussions) and make yourself heard.
-
-### Join the development
-If you are interested in contributing a feature to our code base please have a look at our [Kanban board](https://github.com/orgs/edge-ml/projects/1) and make yourself noticed by joining planned features and issues. Also, feel free to create a pull request if you have found a bug and fixed it!
-
-#### Prerequisites
-* docker, nodejs (> v10) and npm must be installed. It is recommended to have nodemon installed as well.
-* Windows does not support the nodejs debug options. You must run edge-ml on Windows Subsystem for Linux or WSL 2. WSL 2 however does not support React hot reload though, so you might be better off using a VM. 
-* We discourage the use of Windows. It is supported, but it can be tricky to get everything to work, especially if you use the Windows Subsystem for Linux or WSL 2 alongside with Docker Desktop for Windows.
-
-#### Installation
-* do `git clone --recurse-submodules https://github.com/edge-ml/edge-ml.git`
-* make sure docker (desktop) is running
-* cd into the edge-ml folder and compose & start the mongo database with `docker-compose up -d mongo`
-* cd into ./authentication and do npm install
-* cd into ./backend and do npm install
-* cd into ./frontend and do npm install
-
-#### Starting edge-ml
-(if you don't want automatic server refreshs when you modify the code, you can substitute "nodemon" with "node")
-
-* make sure docker (desktop) is running, do `docker-compose up -d mongo` to start the database
-* cd into ./authentication and do nodemon server.js 
-* cd into ./backend and do nodemon server.js 
-* cd into ./frontend and do npm start (or yarn start)
-
-The order is important, the authentication part and the backend need to run before the frontend is started.
-You should now get a message similar to this one: 
-
-`Something is already running on port 3000. Probably:`
-  `/path/to/nodejs server.js (pid 8753)`
-  `in /path/to/edge-ml/backend`
-
-`Would you like to run the app on another port instead? (Y/n)`
-
-* type Y and hit enter. A browser window should open. If not, open one yourself with URL localhost:3001
-
-Every time you run edge-ml, you need to go through these steps again. You can put these commands in a bash script for convenience.
- 
-Now you should be good to go. Any change in the source code will automatically refresh the server and frontend when nodemon is used.
-If you use Visual Studio Code, debugging React code is easy, click [here](https://code.visualstudio.com/docs/nodejs/reactjs-tutorial#_debugging-react) for a guide.
-
-
-#### Troubleshooting
-* Windows does not support the nodejs debug options. You must run edge-ml on Windows Subsystem for Linux or WSL 2. If you get an error message similar to this one: `Error: Cannot find module 'C:\Workspace\edge-ml\authentication\$NODE_DEBUG_OPTION'` this is the reason.
-* if you use Windows Subsystem for Linux or WSL 2 and cannot access localhost:3001, try http://127.0.0.1:3001 instead of localhost, or restart the Subsystem and try again.
 
 ## Advanced
 ### Projects
@@ -210,3 +158,54 @@ Please follow the readmes of the repositories to learn how to use our Arduino, A
 ### Account
 #### Settings
 #### 2-Factor-Authentication
+
+## How to contribute
+edge-ml is open-source and we love to see others contribute. Our dedicated team of researchers and developers constantly works on making edge-ml the best end-to-end embedded machine learning framework for everyone.
+
+### Submit an issue or feature
+Did you experience a bug? 🐛 Do you have a feature request? Please [join the discussion](https://github.com/edge-ml/edge-ml/discussions) and make yourself heard.
+
+### Join the development
+If you are interested in contributing a feature to our code base please have a look at our [Kanban board](https://github.com/orgs/edge-ml/projects/1) and make yourself noticed by joining planned features and issues. Also, feel free to create a pull request if you have found a bug and fixed it!
+
+#### Prerequisites
+* docker, nodejs (> v10) and npm must be installed. It is recommended to have nodemon installed as well.
+* Windows does not support the nodejs debug options. You must run edge-ml on Windows Subsystem for Linux or WSL 2. WSL 2 however does not support React hot reload though, so you might be better off using a VM. 
+* We discourage the use of Windows. It is supported, but it can be tricky to get everything to work, especially if you use the Windows Subsystem for Linux or WSL 2 alongside with Docker Desktop for Windows.
+
+#### Installation
+* do `git clone --recurse-submodules https://github.com/edge-ml/edge-ml.git`
+* make sure docker (desktop) is running
+* cd into the edge-ml folder and compose & start the mongo database with `docker-compose up -d mongo`
+* cd into ./authentication and do npm install
+* cd into ./backend and do npm install
+* cd into ./frontend and do npm install
+
+#### Starting edge-ml
+(if you don't want automatic server refreshs when you modify the code, you can substitute "nodemon" with "node")
+
+* make sure docker (desktop) is running, do `docker-compose up -d mongo` to start the database
+* cd into ./authentication and do nodemon server.js 
+* cd into ./backend and do nodemon server.js 
+* cd into ./frontend and do npm start (or yarn start)
+
+The order is important, the authentication part and the backend need to run before the frontend is started.
+You should now get a message similar to this one: 
+
+`Something is already running on port 3000. Probably:`
+  `/path/to/nodejs server.js (pid 8753)`
+  `in /path/to/edge-ml/backend`
+
+`Would you like to run the app on another port instead? (Y/n)`
+
+* type Y and hit enter. A browser window should open. If not, open one yourself with URL localhost:3001
+
+Every time you run edge-ml, you need to go through these steps again. You can put these commands in a bash script for convenience.
+ 
+Now you should be good to go. Any change in the source code will automatically refresh the server and frontend when nodemon is used.
+If you use Visual Studio Code, debugging React code is easy, click [here](https://code.visualstudio.com/docs/nodejs/reactjs-tutorial#_debugging-react) for a guide.
+
+
+#### Troubleshooting
+* Windows does not support the nodejs debug options. You must run edge-ml on Windows Subsystem for Linux or WSL 2. If you get an error message similar to this one: `Error: Cannot find module 'C:\Workspace\edge-ml\authentication\$NODE_DEBUG_OPTION'` this is the reason.
+* if you use Windows Subsystem for Linux or WSL 2 and cannot access localhost:3001, try http://127.0.0.1:3001 instead of localhost, or restart the Subsystem and try again.

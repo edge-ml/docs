@@ -86,7 +86,7 @@ In this example, we collect two datasets. The first dataset containes multiple r
 Now that you have collected your training data, you have to add labels to it so that they can be processed in the model training generation step later. Please navigate to "Labelings" in the top navigation bar in your project. Then click "+ Add Labeling Set" to add a new set of labels. You can now enter the name of the labeling set (e.g., in our case "Gesture Labels"). Then click on "+ Add Label" to add your desired labels. In our example scenario we are adding the labels based on the data we recorded earlier by adding 'Shake', 'Bump', and 'No Gesture'. The colors for the labels are generate automatically for you and you can easily change them by entering a different color HEX code.
 
 ### Train edge-ml model
-Training a model inside edge-ml is currently in closed beta. However, if you would like to train a model using the edge-ml device API in Python and sklearn you can follow the steps in the jupyter notebook [here](https://github.com/edge-ml/python/blob/main/notebook.ipynb).
+Training a model inside edge-ml is currently in closed beta. However, if you would like to train a model using the edge-ml device API in Python and sklearn you can follow the steps in the jupyter notebook [here](https://github.com/edge-ml/python/blob/main/notebook.ipynb). *Please Note:* You have to enable the device API in the settings of your project on edge-ml to retreive an API key for your project that you then use in the Python library.
 
 ### Deploy and use
 _Coming soon._

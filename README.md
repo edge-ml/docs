@@ -9,8 +9,7 @@ If you are using _edge-ml_ and would like to cite it in your research please use
 @misc{edge-ml, 
   title={edge-ml.org - End-To-End Embedded Machine Learning}, 
   url={edge-ml.org}, 
-  author={Tobias Röddiger and Tobias King and Philipp Lepold and Jennifer Münk 
-                          and Shanshan Du and Till Riedel and Michael Beigl}
+  author={Tobias Röddiger and Tobias King and and Till Riedel and Michael Beigl}
 }
 ```
 

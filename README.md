@@ -39,12 +39,12 @@ The docs give you a quick intro into edge-ml.
   - [Account](#Account)
     - [Settings]()
     - [2-Factor-Authentication]()
-  - **[How to contribute](#How-to-contribute)**
-    - [Submit an issue](#Submit-an-issue-or-feature)
-    - [Join the development](#Join-the-development)
-      - [Prerequisites](#Prerequisites)
-      - [Starting edge-ml](#Starting-edge-ml)
-      - [Troubleshooting](#Troubleshooting)
+- **[How to contribute](#How-to-contribute)**
+  - [Submit an issue](#Submit-an-issue-or-feature)
+  - [Join the development](#Join-the-development)
+    - [Prerequisites](#Prerequisites)
+    - [Starting edge-ml](#Starting-edge-ml)
+    - [Troubleshooting](#Troubleshooting)
 
 ## Before you start
 ### How is edge-ml organized?

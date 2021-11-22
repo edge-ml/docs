@@ -68,9 +68,9 @@ In this tutorial, we will focus on the **Nicla Sense ME** and **Arduino Nano 33 
 
 Then, navigate to the project that you have created earlier on edge-ml. 
 Within in your project navigate to the tab "Datasets" which will give you the possibility to connect to a new device using Bluetooth Low Energy by clicking the "+ Upload from BLE" button. Once your device is found, select it from the list of devices and click "Connect".
-The device then shows up in your list of connected devices with the possibility to enable different sensors and set their respective sampling rates. 
+The device then shows up in your list of connected devices with the possibility to enable different sensors. 
 You can now activate the sensors that you would like to record by selecting them from the list shown on your screen.
-In this example, we will activate the accelerometer and gyroscope sampling at 50 Hz.
+In this example, we will activate the accelerometer and gyroscope.
 
 _Please note_: If edge-ml tells you that WebBLE is not available, follow the instructions to activate the experimental feature in your browser. Currently, WebBLE is **only available** on Chrome, Chrome Android, and Microsoft Edge. 
 Also, make sure that your computer supports Bluetooth Low Energy.
@@ -86,7 +86,7 @@ In this example, we collect two datasets. The first dataset containes multiple r
 Now that you have collected your training data, you have to add labels to it so that they can be processed in the model training generation step later. Please navigate to "Labelings" in the top navigation bar in your project. Then click "+ Add Labeling Set" to add a new set of labels. You can now enter the name of the labeling set (e.g., in our case "Gesture Labels"). Then click on "+ Add Label" to add your desired labels. In our example scenario we are adding the labels based on the data we recorded earlier by adding 'Shake', 'Bump', and 'No Gesture'. The colors for the labels are generate automatically for you and you can easily change them by entering a different color HEX code.
 
 ### Train edge-ml model
-_Closed Beta._
+Training a model inside edge-ml is currently in closed beta. However, if you would like to train a model using the edge-ml device API in Python and sklearn you can follow the steps in the jupyter notebook [here](https://github.com/edge-ml/python)
 
 ### Deploy and use
 _Coming soon._

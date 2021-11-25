@@ -23,6 +23,7 @@ To add the required support files for your Arduino follow the steps here:
 - [Arduino Nano 33 BLE Sense](https://docs.arduino.cc/software/ide-v1/tutorials/getting-started/cores/arduino-mbed_nano)
 
 ### Flash edge-ml Firmware
+Install the edge-ml library following the steps [here](https://github.com/edge-ml/EdgeML-Arduino#how-to-install).
 
 ### Collect Data
 

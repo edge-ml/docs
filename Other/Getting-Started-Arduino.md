@@ -26,8 +26,12 @@ To add the required support files for your Arduino follow the steps here:
 Install edge-ml in your Arduino IDE and flash it onto your Arduino following the steps [here](https://github.com/edge-ml/EdgeML-Arduino#how-to-install).
 
 ### Collect Data
-To collect data, head over to [edge-ml.org](https://app.edge-ml.org) and register an account. Then create a new project in the left navigation bar.
-Open the project and select "Datasets". Now you can connect to 
+To collect data, head over to [edge-ml.org](https://app.edge-ml.org) and register an account. Then create a new project in the left navigation bar by clicking "+ Add Project". Give your project a name and save it. Open the project and select "Datasets". Now you can connect to your Arduino.
+
+![image](https://user-images.githubusercontent.com/11386075/143427884-2b283110-4342-438d-8e6c-59256ced91a0.png)
+
+
+
 
 ### Label Data
 

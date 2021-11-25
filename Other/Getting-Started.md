@@ -1,7 +1,7 @@
 # Getting Started
 
 ### Introduction
-This tutorial is intended people that are interested in using edge-ml for the first time.
+This tutorial is intended for everyone that is interested in using edge-ml for the first time.
 
 In this tutorial we will show you:
 - [How to install the Arduino IDE?](#Install-Arduino-IDE)

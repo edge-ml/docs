@@ -1,7 +1,7 @@
 # Ubicomp Lecture Tutorial
 
 ### Introduction
-This tutorial is intended for students participating in the Ubicomp lecture at the Karlsruhe Institute of Technology (KIT).
+This tutorial is intended people that are interested in using edge-ml for the first time.
 
 In this tutorial we will show you:
 - [How to install the Arduino IDE?](#Install-Arduino-IDE)

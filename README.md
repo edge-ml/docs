@@ -50,7 +50,7 @@ Before you can use edge-ml, you have to register. Please do so [here](https://ap
 
 ## Creating your first edge-ml model
 We offer support for different platforms. Please follow the tutorials for your platform:
-- [Getting started with edge-ml and Arduino]
+- [Getting started with edge-ml and Arduino](https://github.com/edge-ml/docs/blob/main/Tutorials/Getting-Started-Arduino.md)
 
 
 

@@ -19,7 +19,7 @@ The docs give you a quick intro into edge-ml.
     - [How is edge-ml organized?](#How-is-edge-ml-organized)
     - [Register](#Register)
 - **[Creating your first edge-ml model](#Creating-your-first-edge-ml-model)**
-  - [Arduino](Getting-started-with-edge-ml-and-Arduino)
+  - [Arduino](#Getting-started-with-edge-ml-and-Arduino)
 - **[Advanced](#Advanced)**
   - [Projects](#Projects)
     - [Settings]()

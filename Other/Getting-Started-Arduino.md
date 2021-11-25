@@ -26,9 +26,22 @@ To add the required support files for your Arduino follow the steps here:
 Install edge-ml in your Arduino IDE and flash it onto your Arduino following the steps [here](https://github.com/edge-ml/EdgeML-Arduino#how-to-install).
 
 ### Collect Data
-To collect data, head over to [edge-ml.org](https://app.edge-ml.org) and register an account. Then create a new project in the left navigation bar by clicking "+ Add Project". Give your project a name and save it. Open the project and select "Datasets". Now you can connect to your Arduino.
+To collect data, head over to [edge-ml.org](https://app.edge-ml.org) and register an account. Then create a new project in the left navigation bar by clicking "+ Add Project". Give your project a name and save it. Open the project and select "Datasets". Now you can connect to your Arduino by clicking "Connect to Bluetooth Device".
 
-![image](https://user-images.githubusercontent.com/11386075/143427884-2b283110-4342-438d-8e6c-59256ced91a0.png)
+<img src="https://user-images.githubusercontent.com/11386075/143427884-2b283110-4342-438d-8e6c-59256ced91a0.png" alt="alt text" width="700">
+
+Click on "Connect device". This will scan for available devices. Once your device has been found, connect to it.
+
+<img src="https://user-images.githubusercontent.com/11386075/143428977-3adc1ba8-773f-4b60-86c2-99f3a49762a8.png" alt="alt text" width="700">
+
+
+Now that you are connected, you can select the desired sensors, give your dataset a name and hit "Start recording" to collect data. When you are finished collecting data you can click "Stop recording".
+
+<img src="https://user-images.githubusercontent.com/11386075/143428686-bbba3d3e-54ee-4da0-b308-3bf70fd598b9.png" alt="alt text" width="700">
+
+You can view the recorded dataset by heading back to datasets and clicking "View".
+
+<img src="https://user-images.githubusercontent.com/11386075/143429468-a18d32ec-0757-4f55-a487-f677c5e1c364.png" alt="alt text" width="700">
 
 
 

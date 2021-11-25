@@ -20,7 +20,7 @@ To install the Arduino Desktop IDE follow the specific instructions for your pla
 ### Add Board Support Files
 To add the required support files for your Arduino follow the steps here:
 - [Arduino Nicla Sense ME](https://docs.arduino.cc/software/ide-v1/tutorials/getting-started/cores/arduino-mbed_nicla)
-- [Arduino Nano 33 BLE Sense]()
+- [Arduino Nano 33 BLE Sense](https://docs.arduino.cc/software/ide-v1/tutorials/getting-started/cores/arduino-mbed_nano)
 
 ### Flash edge-ml Firmware
 

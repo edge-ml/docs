@@ -54,9 +54,16 @@ Now that you have collected your training data, you have to add labels to it so 
 
 You can now enter the name of the labeling set. Then click on "+ Add Label" to add your desired labels.
 The colors for the labels are generate automatically for you and you can easily change them by entering a different color HEX code.
-<img src="https://user-images.githubusercontent.com/11386075/143431092-2291b034-6131-4e4b-8aa8-ec21409c9b4d.png" alt="alt text" width="700">
 
-To add a label go back to your datasets and then view the dataset that you would like to label. Click the lock in the bottom left corner to enable the labeling feature.
+<img src="https://user-images.githubusercontent.com/11386075/143431092-2291b034-6131-4e4b-8aa8-ec21409c9b4d.png" alt="alt text" width="400">
+
+To add a label go back to your datasets and then view the dataset that you would like to label. Click the lock in the bottom left corner to enable the labeling feature. Then add the labels as you desire.
+
+
+![ezgif-2-440acf966c1b](https://user-images.githubusercontent.com/11386075/143432545-f75fd209-71e5-42f0-9334-7bd870a4ece7.gif)
+
+
+
 
 
 ### Train Classifier

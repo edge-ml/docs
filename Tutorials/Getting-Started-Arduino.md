@@ -47,6 +47,15 @@ You can view the recorded dataset by heading back to datasets and clicking "View
 
 
 ### Label Data
+Now that you have collected your training data, you have to add labels to it so that they can be processed in the model training generation step later. Please navigate to "Labelings" in the navigation bar in your project. 
+
+TODO IMAGE
+
+Click "+ Add Labeling Set" to add a new set of labels. You can now enter the name of the labeling set. Then click on "+ Add Label" to add your desired labels.
+The colors for the labels are generate automatically for you and you can easily change them by entering a different color HEX code.
+
+TODO IMAGE
+
 
 ### Train Classifier
 Now that you have collected some data and labeled different acitivities, please follow the steps in [this Google Colab Notebook](https://colab.research.google.com/drive/1JeKOSQvd5xayBETpWO-uPHtiKgKmGjUv?usp=sharing) to train a classifier.

@@ -26,7 +26,7 @@ To add the required support files for your Arduino follow the steps here:
 Install edge-ml in your Arduino IDE and flash it onto your Arduino following the steps [here](https://github.com/edge-ml/EdgeML-Arduino#how-to-install).
 
 ### Collect Data
-_Please note_: Before you can use edge-ml you have to enable WebBLE in your Browser. Currently, WebBLE is **only available** on Chrome (head to `chrome://flags/#enable-experimental-web-platform-features` in your browser bar and set the Experimental Web Platform Features enabled). 
+_Please note_: Before you can use edge-ml you have to enable WebBLE in your Browser. Currently, WebBLE is **only available** on Chrome (head to `chrome://flags/#enable-experimental-web-platform-features` in your URL bar and set the *Experimental Web Platform Features* enabled). 
 WebBLE also works with Microsoft Edge. 
 Also, make sure that your computer supports Bluetooth Low Energy.
 Otherwise, connecting to your Arduino board will not be possible. 

@@ -12,6 +12,10 @@ In this tutorial we will show you:
 - [How to train a classifier from edge-ml data in a Jupyter Notebook?](#Train-Classifier)
 
 ### Install Arduino IDE
+To install the Arduino IDE follow the specific instructions for your platform here:
+- [Windows](https://www.arduino.cc/en/Guide/Windows)
+- [MacOS](https://www.arduino.cc/en/Guide/macOS)
+- [Linux](https://www.arduino.cc/en/Guide/Linux)
 
 ### Add Board Support Files
 

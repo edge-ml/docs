@@ -47,14 +47,16 @@ You can view the recorded dataset by heading back to datasets and clicking "View
 
 
 ### Label Data
-Now that you have collected your training data, you have to add labels to it so that they can be processed in the model training generation step later. Please navigate to "Labelings" in the navigation bar in your project. 
+Now that you have collected your training data, you have to add labels to it so that they can be processed in the model training generation step later. Please navigate to "Labelings" in the navigation bar in your project. Then, lick "+ Add Labeling Set" to add a new set of labels 
 
-TODO IMAGE
+<img src="https://user-images.githubusercontent.com/11386075/143431041-0a83ec45-0724-4888-b89a-38c41d20cd51.png" alt="alt text" width="700">
 
-Click "+ Add Labeling Set" to add a new set of labels. You can now enter the name of the labeling set. Then click on "+ Add Label" to add your desired labels.
+
+You can now enter the name of the labeling set. Then click on "+ Add Label" to add your desired labels.
 The colors for the labels are generate automatically for you and you can easily change them by entering a different color HEX code.
+<img src="https://user-images.githubusercontent.com/11386075/143431092-2291b034-6131-4e4b-8aa8-ec21409c9b4d.png" alt="alt text" width="700">
 
-TODO IMAGE
+To add a label go back to your datasets and then view the dataset that you would like to label. Click the lock in the bottom left corner to enable the labeling feature.
 
 
 ### Train Classifier

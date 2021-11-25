@@ -1,4 +1,4 @@
-# Ubicomp Lecture Tutorial
+# Getting Started
 
 ### Introduction
 This tutorial is intended people that are interested in using edge-ml for the first time.

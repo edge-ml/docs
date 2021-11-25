@@ -19,12 +19,6 @@ The docs give you a quick intro into edge-ml.
     - [How is edge-ml organized?](#How-is-edge-ml-organized)
     - [Register](#Register)
 - **[Creating your first edge-ml model](#Creating-your-first-edge-ml-model)**
-  - [Create project](#Create-project)
-  - [Connect device](#Connect-device)
-  - [Record datasets](#Record-datasets)
-  - [Add Labels](#Add-Labels)
-  - [Train edge-ml model](#Train-edge-ml-model)
-  - [Deploy and use](#Deploy-and-use)
 - **[Advanced](#Advanced)**
   - [Projects](#Projects)
     - [Settings]()
@@ -54,48 +48,10 @@ In general, edge-ml is organized on a per project. After creating a project, you
 Before you can use edge-ml, you have to register. Please do so [here](https://app.edge-ml.org)
 
 ## Creating your first edge-ml model
-### Create project
-After registering (see [Registration](#Registration)) login to your edge-ml account. Then create your first project by clicking on the "+ Add Project" button in the left main navigation bar. Here you can set a project name. Then click "Save" to create your first project. You have now create your first project with edge-ml.
-
-### Connect device
-Out of the box, edge-ml currently supports connecting to the following Arduinos:
-- [Nicla Sense ME](https://www.bosch-sensortec.com/software-tools/tools/arduino-nicla-sense-me/) (directly from your browser over BLE)
-- [Arduino Nano 33 BLE](https://store.arduino.cc/products/arduino-nano-33-ble) (directly from your browser over BLE)
-- [ESP32](https://www.espressif.com/en/products/socs/esp32) (over WiFi using the dedicated edge-ml Arduino library)
-
-edge-ml also supports [Android](https://github.com/edge-ml/java) and [node.js](https://github.com/edge-ml/node).
-
-In this tutorial, we will focus on the **Nicla Sense ME** and **Arduino Nano 33 BLE** which already have sensors pre-installed and require minimal setup.
-
-**Before you start please first install the edge-ml firmware on your Nicla Sense ME or Arduino Nano 33 BLE following the tutorials here:**
-- [How to install the edge-ml Firmware on your Nicla Sense ME?](https://github.com/edge-ml/nicla-sense-me-fw#nicla-sense-me-fw)
-- [How to install the edge-ml Firmware on your Arduino Nano 33 BLE?](https://github.com/edge-ml/nano-33-ble-fw)
+We offer support for different platforms. Please follow the tutorials for your platform:
+- [Getting started with edge-ml and Arduino]
 
 
-Then, navigate to the project that you have created earlier on edge-ml. 
-Within in your project navigate to the tab "Datasets" which will give you the possibility to connect to a new device using Bluetooth Low Energy by clicking the "+ Upload from BLE" button. Once your device is found, select it from the list of devices and click "Connect".
-The device then shows up in your list of connected devices with the possibility to enable different sensors. 
-You can now activate the sensors that you would like to record by selecting them from the list shown on your screen.
-In this example, we will activate the accelerometer and gyroscope.
-
-_Please note_: If edge-ml tells you that WebBLE is not available, follow the instructions to activate the experimental feature in your browser. Currently, WebBLE is **only available** on Chrome, Chrome Android, and Microsoft Edge. 
-Also, make sure that your computer supports Bluetooth Low Energy.
-Otherwise, connecting to the Nicla Sense ME will not be possible. 
-
-### Record dataset
-Now that you have connected to your device and configured the sensors according to your requirements, the next step is to record the first dataset.
-To do so, click the "Record" button next to your connected device. You will start see data coming in which will be automatically pushed to the edge-ml cloud. Once you click "Stop", edge-ml will redirect you to the dataset you have just recorded. If you want to record another dataset, just go back to your device and click "Record" again.
-
-In this example, we collect two datasets. The first dataset containes multiple repetitions of a 'Shake' gesture. The second dataset contains multiple repetitions of a 'Bump' gesture. We leave small breaks between the gesture repetitions to classify 'No Gesture' later.
-
-### Add labels
-Now that you have collected your training data, you have to add labels to it so that they can be processed in the model training generation step later. Please navigate to "Labelings" in the top navigation bar in your project. Then click "+ Add Labeling Set" to add a new set of labels. You can now enter the name of the labeling set (e.g., in our case "Gesture Labels"). Then click on "+ Add Label" to add your desired labels. In our example scenario we are adding the labels based on the data we recorded earlier by adding 'Shake', 'Bump', and 'No Gesture'. The colors for the labels are generate automatically for you and you can easily change them by entering a different color HEX code.
-
-### Train edge-ml model
-Training a model inside edge-ml is currently in closed beta. However, if you would like to train a model using the edge-ml device API in Python and sklearn you can follow the steps in the jupyter notebook [here](https://colab.research.google.com/drive/1JeKOSQvd5xayBETpWO-uPHtiKgKmGjUv?usp=sharing). *Please Note:* You have to enable the device API in the settings of your project on edge-ml to retreive an API key for your project that you then use in the Python library.
-
-### Deploy and use
-_Coming soon._
 
 ## Advanced
 ### Projects

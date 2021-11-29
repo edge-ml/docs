@@ -42,7 +42,7 @@ Click on "Connect device". This will scan for available devices. Once your devic
 
 Now that you are connected, you can select the desired sensors, give your dataset a name and hit "Start recording" to collect data. When you are finished collecting data you can click "Stop recording".
 
-<img src="https://user-images.githubusercontent.com/11386075/143428686-bbba3d3e-54ee-4da0-b308-3bf70fd598b9.png" alt="alt text" width="700">
+<img src="https://user-images.githubusercontent.com/11386075/143898897-cc8f96b0-521c-4f43-8cad-03c67cb9db71.png" alt="alt text" width="700">
 
 You can view the recorded dataset by heading back to datasets and clicking "View".
 

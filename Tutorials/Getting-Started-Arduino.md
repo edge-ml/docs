@@ -74,7 +74,7 @@ To add a label go back to your datasets and then view the dataset that you would
 
 
 ### Train Classifier
-Now that you have collected some data and labeled different acitivities, please follow the steps in [this Google Colab Notebook](https://colab.research.google.com/drive/13TUkDDRqZ5Cz-fXNePQv78bv7AgNbJmu?usp=sharing) to train a classifier.
+Now that you have collected some data and labeled different acitivities, please follow the steps in [this Google Colab Notebook](https://colab.research.google.com/drive/1JeKOSQvd5xayBETpWO-uPHtiKgKmGjUv?usp=sharing) to train a classifier.
 You will have to perform small changes to adapt the notebook to your specific dataset (sensors used) and labels.
 Please find the detailed instructions directly inside the notebook.
 

@@ -37,7 +37,7 @@ To collect data, head over to [edge-ml.org](https://app.edge-ml.org) and registe
 
 <img src="https://user-images.githubusercontent.com/11386075/143427884-2b283110-4342-438d-8e6c-59256ced91a0.png" alt="alt text" width="700">
 
-Click on "Connect device". This will scan for available devices. Once your device has been found, connect to it. **Note:** It may take a while to find your device.
+Click on "Connect device". This will scan for available devices. Once your device has been found, connect to it. **Note:** It may take a while to find your device. After some time, you might also try restarting your Arduino.
 
 <img src="https://user-images.githubusercontent.com/11386075/143428977-3adc1ba8-773f-4b60-86c2-99f3a49762a8.png" alt="alt text" width="700">
 

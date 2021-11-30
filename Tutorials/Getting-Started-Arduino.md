@@ -3,6 +3,8 @@
 ### Introduction
 This tutorial is intended for everyone that is interested in using edge-ml with Arduino for the first time.
 
+🎥 The contents of this tutorial are also available on [YouTube](https://www.youtube.com/playlist?list=PL9zeQXSgFI9_LNnectW1A3p5-cZGQ2m2U).
+
 In this tutorial we will show you:
 - [How to install the Arduino IDE?](#Install-Arduino-IDE)
 - [How to add the required support files for your Nicla Sense ME or Arduino Nano 33 BLE Sense to the Arduino IDE?](#Add-Board-Support-Files)

@@ -25,7 +25,7 @@ To add the required support files for your Arduino follow the steps here:
 - [Arduino Nano 33 BLE Sense](https://docs.arduino.cc/software/ide-v1/tutorials/getting-started/cores/arduino-mbed_nano)
 
 ### Flash edge-ml Firmware
-Install edge-ml in your Arduino IDE and flash it onto your Arduino following the steps [here](https://github.com/edge-ml/EdgeML-Arduino#how-to-install).
+Install edge-ml in your Arduino IDE and flash it onto your Arduino following the steps [here](https://github.com/edge-ml/EdgeML-Arduino#edgeml-arduino).
 
 ### Collect Data
 _Please note_: Before you can use edge-ml you have to enable WebBLE in your Browser. Currently, WebBLE is **only available** on Chrome (head to `chrome://flags/#enable-experimental-web-platform-features` in your URL bar and set the *Experimental Web Platform Features* enabled). 

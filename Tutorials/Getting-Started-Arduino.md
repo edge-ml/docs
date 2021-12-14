@@ -1,7 +1,7 @@
 # Getting Started - Arduino
 
 ### Introduction
-This tutorial is intended for everyone that is interested in using edge-ml with Arduino for the first time.
+This tutorial is intended for everyone who is interested in using edge-ml with Arduino for the first time.
 
 🎥 The contents of this tutorial are also available on [YouTube](https://www.youtube.com/playlist?list=PL9zeQXSgFI9_LNnectW1A3p5-cZGQ2m2U).
 
@@ -81,7 +81,7 @@ Please find the detailed instructions directly inside the notebook.
 # Questions
 If you have any questions please reach out to Tobias Roeddiger *[lastname]*@teco.edu
 
-If you are experiencing problems with edge-ml please file a bug [here](https://github.com/edge-ml/edge-ml/issues).
+If you are experiencing problems with edge-ml, please file a bug [here](https://github.com/edge-ml/edge-ml/issues).
 
 
 

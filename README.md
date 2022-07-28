@@ -138,17 +138,21 @@ If you are interested in contributing a feature to our code base please have a l
 * do `git clone --recurse-submodules https://github.com/edge-ml/edge-ml.git`
 * make sure docker (desktop) is running
 * cd into the edge-ml folder and compose & start the mongo database with `docker-compose up -d mongo`
+* alternative without docker: install mongodb following the instructions [here](https://www.mongodb.com/docs/manual/administration/install-community/) or for WSL 2 [here](https://docs.microsoft.com/en-us/windows/wsl/tutorials/wsl-database#install-mongodb)
+* alternative without docker: create a directory for your database with `mkdir mongo`
 * cd into ./authentication and do npm install
 * cd into ./backend and do npm install
 * cd into ./frontend and do npm install
+
 
 #### Starting edge-ml
 (if you don't want automatic server refreshs when you modify the code, you can substitute "nodemon" with "node")
 
 * make sure docker (desktop) is running, do `docker-compose up -d mongo` to start the database
-* cd into ./authentication and do nodemon server.js 
-* cd into ./backend and do nodemon server.js 
-* cd into ./frontend and do npm start (or yarn start)
+* alternative without docker: cd into ./mongo and do `sudo mongod --dbpath ./`
+* cd into ./authentication and do `nodemon server.js`
+* cd into ./backend and do `nodemon server.js` 
+* cd into ./frontend and do `npm start` (or `yarn start`)
 
 The order is important, the authentication part and the backend need to run before the frontend is started.
 You should now get a message similar to this one: 
